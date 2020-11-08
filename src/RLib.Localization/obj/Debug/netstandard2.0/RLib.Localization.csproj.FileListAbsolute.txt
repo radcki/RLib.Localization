@@ -1,0 +1,9 @@
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\bin\Debug\netstandard2.0\RLib.Localization.deps.json
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\bin\Debug\netstandard2.0\RLib.Localization.dll
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\bin\Debug\netstandard2.0\RLib.Localization.pdb
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\obj\Debug\netstandard2.0\RLib.Localization.csprojAssemblyReference.cache
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\obj\Debug\netstandard2.0\RLib.Localization.AssemblyInfoInputs.cache
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\obj\Debug\netstandard2.0\RLib.Localization.AssemblyInfo.cs
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\obj\Debug\netstandard2.0\RLib.Localization.csproj.CoreCompileInputs.cache
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\obj\Debug\netstandard2.0\RLib.Localization.dll
+C:\Users\Radek\source\repos\RLib.Localization\src\RLib.Localization\obj\Debug\netstandard2.0\RLib.Localization.pdb
