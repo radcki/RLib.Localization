@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kpO1fXRA42Gu+qPKuERwfzBLt0zMsio3l1v4OW62I/D72VRBIGtBVcI5pr9C9RIvAt4985yq/mT4ovNsGXlMRA==",
+  "dgSpecHash": "yQGB3Hk2TGk4GMiXTklsJQIQbuUVzC/UF31c3WffnkxAhU843uky6vXh6iXK825ZjDm/6jlZxuqKgCecY388vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Radek\\source\\repos\\RLib.Localization\\src\\RLib.Localization\\RLib.Localization.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Radek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Radek\\.nuget\\packages\\nerdbank.gitversioning\\3.3.37\\nerdbank.gitversioning.3.3.37.nupkg.sha512"
   ],
   "logs": []
 }

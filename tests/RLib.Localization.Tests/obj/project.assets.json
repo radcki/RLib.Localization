@@ -943,7 +943,7 @@
       },
       "RLib.Localization/0.0.1": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/RLib.Localization.dll": {}
         },

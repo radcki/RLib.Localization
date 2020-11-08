@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Radosław Adamczewski</Authors>
     <Version>0.0.1</Version>
     <RepositoryType></RepositoryType>
@@ -9,6 +9,16 @@
     <RepositoryUrl>https://github.com/radcki/RLib.Localization</RepositoryUrl>
     <Description>Helpers for simple strongly typed localization of .net applications</Description>
     <PackageProjectUrl>https://github.com/radcki/RLib.Localization</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 
 </Project>
