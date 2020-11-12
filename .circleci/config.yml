@@ -11,3 +11,7 @@
        - checkout
        - run: dotnet restore
        - run: dotnet test tests/RLib.Localization.Tests/RLib.Localization.Tests.csproj
+ workflow:
+   test:
+     jobs:
+       - test
