@@ -35,6 +35,19 @@ namespace RLib.Localization.Tests
         }
 
         [Fact]
+        public void ShouldGetLocalizedString_ForEnumResource()
+        {
+            // Arrange
+            CultureInfo.CurrentCulture = new CultureInfo(KnownCulture.Polish);
+
+            // Act
+            var translated = Localization.For(() => eEnumResource.NotFound);
+
+            // Assert
+            translated.Should().Be("Zasób nie zosta³ odnaleziony");
+        }
+
+        [Fact]
         public void ShouldGetBaseString_ForBaseResourceCulture()
         {
             // Arrange
@@ -49,7 +62,7 @@ namespace RLib.Localization.Tests
 
 
         [Fact]
-        public void ShouldGetFormattedString_ForMaching()
+        public void ShouldGetFormattedString_ForMatchingParameter()
         {
             // Arrange
             CultureInfo.CurrentCulture = new CultureInfo(KnownCulture.Polish);
@@ -87,5 +100,12 @@ namespace RLib.Localization.Tests
         [Localized(KnownCulture.Polish, "Czeœæ {name}!")]
         [Localized(KnownCulture.German, "Hallo {name}!")]
         public static string Hello = "Hello {name}!";
+    }
+
+    public enum eEnumResource
+    {
+        [Localized(KnownCulture.Polish, "Zasób nie zosta³ odnaleziony")]
+        [Localized(KnownCulture.English, "Resource was not found")]
+        NotFound = 404
     }
 }

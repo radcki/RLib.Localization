@@ -17,9 +17,20 @@ namespace RLib.Localization
 
         public static string For<T>(Expression<Func<T>> exp, CultureInfo culture, object args = null)
         {
-            var expr = (MemberExpression) exp.Body;
-
-            var memberInfo = expr.Member;
+            MemberInfo memberInfo;
+            if (exp.Body is MemberExpression memberExpression)
+            {
+                memberInfo = memberExpression.Member;
+            }
+            else if(exp.Body is ConstantExpression constantExpression)
+            {
+                var memberName = constantExpression.Value.ToString();
+                memberInfo = constantExpression.Type.GetMember(memberName).First();
+            }
+            else
+            {
+                throw new ArgumentException("Only member expressions and constant expressions are supported");
+            }
 
             var parentMember = memberInfo.DeclaringType;
             var defaultCultureAttributes = new List<BaseResourceCultureAttribute>();

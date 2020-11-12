@@ -116,6 +116,11 @@
               "target": "Package",
               "version": "[16.5.0, )"
             },
+            "Nerdbank.GitVersioning": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.37, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.2.0, )"

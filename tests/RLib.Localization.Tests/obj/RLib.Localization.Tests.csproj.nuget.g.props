@@ -25,5 +25,6 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\Radek\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <PkgNerdbank_GitVersioning Condition=" '$(PkgNerdbank_GitVersioning)' == '' ">C:\Users\Radek\.nuget\packages\nerdbank.gitversioning\3.3.37</PkgNerdbank_GitVersioning>
   </PropertyGroup>
 </Project>
