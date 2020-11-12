@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "73iKelRsuEXhlHaFHAAA/1VfwzVudCDBI3X6qDSTrxI828x/oyc1QSQVfKfkF+AzdFC+HiqKzvao5RHpXVn2XQ==",
+  "dgSpecHash": "Xa+E8GJZTHsQnhVwY3o2OgDrLJnBg6eQcKGb38GnrW+DW+q6TUQv79jop43a7TboR23oa+q0Voy09ScQDyaqVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Radek\\source\\repos\\RLib.Localization\\tests\\RLib.Localization.Tests\\RLib.Localization.Tests.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\Radek\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\Radek\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\Radek\\.nuget\\packages\\nerdbank.gitversioning\\3.3.37\\nerdbank.gitversioning.3.3.37.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Radek\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\Radek\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",

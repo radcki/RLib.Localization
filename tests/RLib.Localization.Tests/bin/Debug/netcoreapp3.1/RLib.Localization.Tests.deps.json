@@ -6,10 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "RLib.Localization.Tests/1.0.0": {
+      "RLib.Localization.Tests/0.2.0-alpha-g7f8df45330": {
         "dependencies": {
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.5.0",
+          "Nerdbank.GitVersioning": "3.3.37",
           "RLib.Localization": "0.0.1",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
@@ -313,6 +314,7 @@
           }
         }
       },
+      "Nerdbank.GitVersioning/3.3.37": {},
       "Newtonsoft.Json/9.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
@@ -736,7 +738,7 @@
     }
   },
   "libraries": {
-    "RLib.Localization.Tests/1.0.0": {
+    "RLib.Localization.Tests/0.2.0-alpha-g7f8df45330": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -803,6 +805,13 @@
       "sha512": "sha512-ytGymboQIvjNX5pLC0yp/Bz9sGDHqSnLQgBRtd4VrqOUgKmmcfxMYZ6p0TBZgAT1oijdC6xqUZ7rl8mbaaXTJw==",
       "path": "microsoft.testplatform.testhost/16.5.0",
       "hashPath": "microsoft.testplatform.testhost.16.5.0.nupkg.sha512"
+    },
+    "Nerdbank.GitVersioning/3.3.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YlDKV/gSHQGDThWSGqVyPfKeNP/kx1fj/NPFFgGc/cxzgIbXv4jtYOcbFOz3ZIeAKtpCcSAmVNDOikBs3OxI/A==",
+      "path": "nerdbank.gitversioning/3.3.37",
+      "hashPath": "nerdbank.gitversioning.3.3.37.nupkg.sha512"
     },
     "Newtonsoft.Json/9.0.1": {
       "type": "package",
