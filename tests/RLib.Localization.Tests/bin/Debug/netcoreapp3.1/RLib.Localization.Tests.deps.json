@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "RLib.Localization.Tests/0.2.0-alpha-g7f8df45330": {
+      "RLib.Localization.Tests/0.3.0-g4a7e9c1306": {
         "dependencies": {
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.5.0",
@@ -738,7 +738,7 @@
     }
   },
   "libraries": {
-    "RLib.Localization.Tests/0.2.0-alpha-g7f8df45330": {
+    "RLib.Localization.Tests/0.3.0-g4a7e9c1306": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
