@@ -4,14 +4,10 @@
   win: circleci/windows@2.2.0
 
  jobs:
-   test:
+   build:
      executor: win/default     
     
      steps:
        - checkout
        - run: dotnet restore
        - run: dotnet test tests/RLib.Localization.Tests/RLib.Localization.Tests.csproj
- workflow:
-   test:
-     jobs:
-       - test
